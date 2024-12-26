@@ -1,0 +1,11 @@
+zoxide
+fzf
+delta
+git
+zsh-autosuggestions
+zsh-syntax-highlighting
+powerlevel10k
+eza
+fd
+fzf-git
+bat
