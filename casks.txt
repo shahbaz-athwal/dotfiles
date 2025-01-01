@@ -18,3 +18,4 @@ hiddenbar
 alt-tab
 whatsapp
 surfshark
+1password
