@@ -1,6 +1,7 @@
 [user]
     name = shahbaz-athwal
     email = shahbazathwal2107@gmail.com
+    signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBDglyjtI0MuvoyNIEj1C1JCG3rQIfIf/YI/GvDPj2FK
 
 [core]
     pager = delta
