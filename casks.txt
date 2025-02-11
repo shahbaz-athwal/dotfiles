@@ -1,5 +1,4 @@
 cursor
-warp
 wezterm
 vlc
 stremio
@@ -19,3 +18,5 @@ alt-tab
 whatsapp
 surfshark
 1password
+postman
+trex
