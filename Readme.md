@@ -21,5 +21,6 @@ This repository contains my personal dotfiles and setup scripts for macOS and Wi
 ## For Windows (WSL)
 ### Resources
 - [The Perfect Setup](https://mayberoot.medium.com/the-perfect-windows-11-dev-environment-setup-with-wezterm-wsl2-and-neovim-d73ab1202703)
+- [Bash Auto Suggestions and Syntax Highlighting](https://github.com/akinomyoga/ble.sh)
 
 
