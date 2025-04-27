@@ -1,8 +1,8 @@
 # Dotfiles
 
-This repository contains my personal dotfiles and setup scripts for macOS.
+This repository contains my personal dotfiles and setup scripts for macOS and Windows(WSL).
 
-## What's Inside
+## For Mac
 
 - `.gitconfig` - Git configuration
 - `.wezterm.lua` - WezTerm terminal emulator configuration
@@ -11,8 +11,15 @@ This repository contains my personal dotfiles and setup scripts for macOS.
 - `casks.txt` - List of macOS applications installed via Homebrew Casks
 - `formulae.txt` - List of clis installed via Homebrew formulae
 
-## Resorces
+### Resorces
 
 - [Mac Setup - Complete Course](https://www.youtube.com/watch?v=GK7zLYAXdDs)
 - [7 Amazing CLI Tools Video](https://www.youtube.com/watch?v=mmqDYw9C30I&list=PLvoCSbEj3RElDn96fpxZLBdqAbBPrRDNU&index=2)
 - [7 Amazing CLI Tools Blog](https://www.josean.com/posts/7-amazing-cli-tools)
+
+
+## For Windows (WSL)
+### Resources
+- [The Perfect Setup](https://mayberoot.medium.com/the-perfect-windows-11-dev-environment-setup-with-wezterm-wsl2-and-neovim-d73ab1202703)
+
+
