@@ -17,10 +17,16 @@ This repository contains my personal dotfiles and setup scripts for macOS and Wi
 - [7 Amazing CLI Tools Video](https://www.youtube.com/watch?v=mmqDYw9C30I&list=PLvoCSbEj3RElDn96fpxZLBdqAbBPrRDNU&index=2)
 - [7 Amazing CLI Tools Blog](https://www.josean.com/posts/7-amazing-cli-tools)
 
+### Express Install
+
+```bash
+xargs brew install --cask < casks.txt
+xargs brew install < formulae.txt
+```
 
 ## For Windows (WSL)
+
 ### Resources
+
 - [The Perfect Setup](https://mayberoot.medium.com/the-perfect-windows-11-dev-environment-setup-with-wezterm-wsl2-and-neovim-d73ab1202703)
 - [Bash Auto Suggestions and Syntax Highlighting](https://github.com/akinomyoga/ble.sh)
-
-
