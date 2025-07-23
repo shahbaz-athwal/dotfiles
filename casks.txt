@@ -18,5 +18,5 @@ yaak
 orbstack
 twingate
 discord
-google-drive
 zen
+stremio
