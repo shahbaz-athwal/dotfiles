@@ -8,13 +8,12 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# ---- Fix Cursor Command Execution Issue ----
-if [[ "$PAGER" != "head -n 10000 | cat" ]]; then
-  source $HOMEBREW_PREFIX/share/powerlevel10k/powerlevel10k.zsh-theme
-fi
-
 # ---- Powerlevel10k, To customize prompt, run `p10k configure` or edit ~/.p10k.zsh. ----
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+if [[ -n "$CURSOR_AGENT" ]]; then
+else
+  source $HOMEBREW_PREFIX/share/powerlevel10k/powerlevel10k.zsh-theme
+  [[ -r ~/.p10k.zsh ]] && source ~/.p10k.zsh
+fi
 
 # ---- Eza (better ls) -----
 alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
