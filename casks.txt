@@ -20,3 +20,8 @@ twingate
 discord
 zen
 stremio
+lm-studio
+superwhisper
+karabiner-elements
+pgadmin4
+cleanshot
