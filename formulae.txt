@@ -13,3 +13,4 @@ go
 kubernetes-cli
 wrk
 leetgo
+stow
