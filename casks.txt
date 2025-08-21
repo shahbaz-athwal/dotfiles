@@ -1,5 +1,5 @@
 cursor
-wezterm
+ghostty
 vlc
 slack
 spotify
