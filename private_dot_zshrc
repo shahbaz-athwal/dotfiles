@@ -1,0 +1,17 @@
+# ---- Autosuggestions and Syntax Highlighting ----
+source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# ---- 1Password ----
+export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
+
+alias k='kubectl'
+alias cls="clear && printf '\e[3J'"
+
+export PATH="$PATH:/Users/shahbaz/.lmstudio/bin"
+export PATH="/Users/shahbaz/.local/bin:$PATH"
+export PORTLESS_HTTPS=1
+
+
+# Vite+ bin (https://viteplus.dev)
+. "$HOME/.vite-plus/env"
