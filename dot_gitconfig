@@ -1,0 +1,15 @@
+e[gpg]
+    format = ssh
+[gpg "ssh"]
+    program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+    gpgsign = true
+[user]
+	name = Shahbaz Singh
+    email = shahbaz.singh@proton.me
+    signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKnw6fIB/j8r7jzygAoUZ6x8o93w75EW/zlnVR25+Dmu
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

@@ -15,3 +15,6 @@ export PORTLESS_HTTPS=1
 
 # Vite+ bin (https://viteplus.dev)
 . "$HOME/.vite-plus/env"
+
+export EDITOR="zed --wait"
+export VISUAL="zed --wait"
