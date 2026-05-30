@@ -1,0 +1,26 @@
+{
+  "title": "Right Option to Fn (Globe)",
+  "rules": [
+    {
+      "description": "Change Right Option to Fn (Globe) key",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "right_option",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "fn"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}

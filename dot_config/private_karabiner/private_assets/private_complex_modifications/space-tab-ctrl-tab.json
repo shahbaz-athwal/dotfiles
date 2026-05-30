@@ -1,0 +1,36 @@
+{
+  "title": "Space + Tab to Ctrl+Tab",
+  "rules": [
+    {
+      "description": "Space + Tab → Ctrl+Tab (cycle tabs forward)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "tab",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "spacebar_layer",
+              "value": 1
+            }
+          ],
+          "to": [
+            {
+              "key_code": "tab",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
