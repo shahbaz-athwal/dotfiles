@@ -28,19 +28,15 @@
             ]
           },
           {
-            "description": "Space + Tab \u2192 Ctrl+Tab (cycle tabs forward)",
+            "description": "Option+Tab \u2192 Ctrl+Tab (cycle tabs forward)",
             "manipulators": [
               {
-                "conditions": [
-                  {
-                    "name": "spacebar_layer",
-                    "type": "variable_if",
-                    "value": 1
-                  }
-                ],
                 "from": {
                   "key_code": "tab",
                   "modifiers": {
+                    "mandatory": [
+                      "left_option"
+                    ],
                     "optional": [
                       "any"
                     ]
